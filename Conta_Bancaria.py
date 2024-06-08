@@ -1,8 +1,9 @@
 class Conta:
-    def __init__(self,numero,titular,saldo = 0):
+    def __init__(self,numero,titular,saldo = 0, saldo_devedor = 0):
         self.numero = numero
         self.titular = titular
         self.saldo = saldo
+        self.saldo_devedor = saldo_devedor
     def debitar(self, valor):
         if valor > self.saldo:
             print("Saldo insuficiente")
