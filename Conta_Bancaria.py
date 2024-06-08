@@ -4,6 +4,7 @@ class Conta:
         self.titular = titular
         self.saldo = saldo
         self.saldo_devedor = saldo_devedor
+        
     def debitar(self, valor):
         if valor > self.saldo:
             print("Saldo insuficiente")
@@ -14,4 +15,11 @@ class Conta:
 
     def extrair_saldo(self):
         return self.saldo
+    
+    def extrair_saldo_devedor(self):
+        return self.saldo_devedor
+    
+    def emprestimo(self, valor):
+        self.saldo_devedor =  valor + (valor * 0.2)
+        self.creditar(valor)
     
