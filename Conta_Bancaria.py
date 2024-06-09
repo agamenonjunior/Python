@@ -22,4 +22,7 @@ class Conta:
     def emprestimo(self, valor):
         self.saldo_devedor =  valor + (valor * 0.2)
         self.creditar(valor)
+        
+    def pagar_saldo_devedor(self, valor):
+        self.saldo_devedor -= valor
     
