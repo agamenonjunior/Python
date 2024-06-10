@@ -25,4 +25,8 @@ class Conta:
         
     def pagar_saldo_devedor(self, valor):
         self.saldo_devedor -= valor
+    def investimento(self, valor,taxa, tempo_em_meses):
+        retorno = 0
+        for in range tempo:
+            retorno += valor + (valor * taxa)
     
