@@ -9,3 +9,4 @@ servicos= {
 }
 
 print(carros.values())
+print(servicos.values())
