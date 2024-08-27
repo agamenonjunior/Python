@@ -3,5 +3,9 @@ carros = {
 "modelo": "Corolla Cross",
 "ano": 2024
 }
+servicos= {
+    "Web":"Desenvolvimento web",
+    "Mobile":"App",
+}
 
 print(carros.values())
