@@ -24,6 +24,11 @@ class Conta:
     #Retorna o saldo devedor do usuário
     def extrair_saldo_devedor(self):
         return self.saldo_devedor
+    def poupanca(self,tempo_em_meses,taxa):
+        retorno = self.saldo
+        for x in range (tempo_em_meses):
+            retorno +=  (self.saldo * taxa)
+        return retorno
 
     #Realiza um acrescimo na conta do usuário e incrementa o saldo Devedor 
     def emprestimo(self, valor):
