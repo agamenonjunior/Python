@@ -11,3 +11,15 @@ Explore este repositório dedicado aos meus estudos em Python. Aqui, você encon
 
 - [Python 3.13.7 ou superior](https://www.python.org/downloads/)
 - [VSCode](https://code.visualstudio.com/download)
+
+## Licença
+
+- MIT
+
+## Contribuições
+```bash
+#Utilize a branch contribuicoes
+
+git switch contribuicoes
+```
+## Conte a outras pessoas sobre este projeto 🎁
